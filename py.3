@@ -1,0 +1,14 @@
+#Aibek Abasov
+#10/22/2024
+
+# The program iterates from 1 to 50, printing "Divisible by three" for multiples of three, "Divisible by five" for multiples of five, and "Divisible by both" for multiples of both.
+
+for x in range(1, 51):
+    if x % 3 == 0 and x % 5 == 0:
+        print("Divisible by both")
+    elif x % 3 == 0:
+        print("Divisible by three")
+    elif x % 5 == 0:
+        print("Divisible by five")
+    else:
+        print(x)
